@@ -1,16 +1,16 @@
-#        HUYNH NHAT YEN DAN 
+#        HUYNH NHAT YEN DAN
 #
 # ~~~~~~~~~~ LIBRARY APP ~~~~~~~~~~~
 #
-#          Scan MEMBERID 
-#          Scan Book ISBN 
-#          If the book is on loan Return the book 
+#          Scan MEMBERID
+#          Scan Book ISBN
+#          If the book is on loan Return the book
 #          else
-#          get BorrowDate 
+#          get BorrowDate
 #          calculate DueDate = BorrowDate +7 days
-#          Add BorrowDate, DueDate, BookISBN and MemberID to the Loan Table 
+#          Add BorrowDate, DueDate, BookISBN and MemberID to the Loan Table
 
 def Display_Member(MemberID, MemberName ) :
-    print(f"User number {MemberID} goes by the name {MemberName}")  
+    print(f"User number {MemberID} goes by the name {MemberName}")
 
-Display_Member(1123,"The King")     
+Display_Member(1123," The King ")     
